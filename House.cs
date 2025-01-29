@@ -26,8 +26,11 @@ public class House
     // Main method to test the class
     public static void Main(string[] args)
     {
+        List<House> houses = new List<House>();
+
         // Create an instance of House
         House myHouse = new House("1234 Elm St", 3, 250000);
+        houses.Add(myHouse);
 
         // Display details of the house
         myHouse.DisplayDetails();
