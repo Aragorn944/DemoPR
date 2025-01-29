@@ -3,6 +3,7 @@ using System;
 public class House
 {
     // Properties of the house
+    public string Country { get; set; }
     public string Address { get; set; }
     public int NumberOfRooms { get; set; }
     public double Price { get; set; }
