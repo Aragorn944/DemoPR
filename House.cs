@@ -31,7 +31,10 @@ public class House
 
         // Create an instance of House
         House myHouse = new House("1234 Elm St", 3, 250000);
+        House house = new House("453 Elm St", 36, 31545554);
+
         houses.Add(myHouse);
+        houses.Add(house);
 
         // Display details of the house
         myHouse.DisplayDetails();
